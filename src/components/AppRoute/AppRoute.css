@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    line-height: 40px;
+    font-size: 20px;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+nav img{
+    height: 50px;
+    width: 100px;
+}
+
+input{
+    height: 40px;
+}
