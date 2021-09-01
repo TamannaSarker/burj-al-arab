@@ -9,16 +9,22 @@ import Login from '../Login/Login';
 import Contact from '../Contact/Contact';
 import Card from '../Card/Card';
 import Confirmation from '../Confirmation/Confirmation';
+import Api from '../Api/Api';
+
+
 function AppRoute() {
      return (
         <>
            <Router>
-            <Menu />
-            <Route path="/" exact component={Card}  />
+             <Menu />
+             <Route path="/" exact component={Card}  />
+             <Route path="/" exact component={Api}  />
              <Route path="/form" component={Form}   />
              <Route path="/contact" component={Contact}   />
              <Route path="/login" component={Login}   />
              <Route path="/confirm"  component={Confirmation}/>
+             
+             
            </Router>    
         </>
      )
