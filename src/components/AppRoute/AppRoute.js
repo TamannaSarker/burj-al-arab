@@ -8,6 +8,7 @@ import Menu from '../Menu/Menu';
 import Login from '../Login/Login';
 import Contact from '../Contact/Contact';
 import Card from '../Card/Card';
+import Confirmation from '../Confirmation/Confirmation';
 function AppRoute() {
      return (
         <>
@@ -17,6 +18,7 @@ function AppRoute() {
              <Route path="/form" component={Form}   />
              <Route path="/contact" component={Contact}   />
              <Route path="/login" component={Login}   />
+             <Route path="/confirm"  component={Confirmation}/>
            </Router>    
         </>
      )
